@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.example.SwiggyProject.Model.Guest;
 
 @Repository
-public interface GuestRepository extends JpaRepository<Guest,Long>{
+public interface GuestRepository {
 
+	//extends JpaRepository<Guest,Long>
 }

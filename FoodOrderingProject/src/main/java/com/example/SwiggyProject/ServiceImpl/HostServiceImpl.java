@@ -6,8 +6,9 @@ import com.example.SwiggyProject.Model.Host;
 import com.example.SwiggyProject.Repository.HostRepository;
 import com.example.SwiggyProject.Service.HostService;
 
-public class HostServiceImpl implements HostService{
+public class HostServiceImpl {
 
+	//implements HostService
 	@Autowired
 	private HostRepository hostRepository;
 	
@@ -18,9 +19,9 @@ public class HostServiceImpl implements HostService{
 	}
 
 
-	@Override
-	public Host saveHost(Host host) {
-		return hostRepository.save(host);
-	}
+//	@Override
+//	public Host saveHost(Host host) {
+//		return hostRepository.save(host);
+//	}
 
 }
